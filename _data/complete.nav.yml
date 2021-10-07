@@ -1,0 +1,49 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: About
+  path: about.html
+  section_id: about
+  children:
+    - name: Our story
+      path: about-story.html
+    - name: Our values
+      path: about-values.html
+    - name: Our team
+      path: about.html
+- name: Our products
+  path: products-high-school.html
+  section_id: products
+  children:
+    - name: For primary school
+      path: products-primary-school.html
+    - name: For high school
+      path: products-high-school.html
+- name: Our technology
+  path: technology-approach.html
+  section_id: 
+  children:
+    - name: Our approach
+      path: technology-approach.html
+    - name: What we've built
+      path: technology-components.html      
+    - name: Licensing
+      path: technology-licensing.html
+- name: Our work
+  path: work.html
+  section_id: work
+  children:
+    - name: About our work
+      path: work.html
+    - name: Open Textbooks
+      path: work-oer.html
+    - name: Partnered work
+      path: work-partnered.html
+    - name: Data and analysis
+      path: work-data.html
+- name: Contact
+  path: contact.html
+  section_id: contact
+- name: Blog
+  path: blog/index.html
+  section_id: blog

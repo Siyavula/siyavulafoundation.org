@@ -1,0 +1,178 @@
+---
+layout: default
+title: Technology
+section_id: Technology
+services_left:
+  - icon: compass
+    title: Goal directed, coupled with feedback
+    desc: Learners need to practice “smarter, not harder”, focusing on individual goals, strengths and weaknesses. Practice must be coupled with targeted feedback to promote the greatest learning.
+  - icon: sliders
+    title: Sequenced appropriately
+    desc: Not only should the sequence of exercises be specific to the level of the learner, but a practice session should be interleaved or mixed for long-term retention.
+services_right:
+  - icon: dashboard
+    title: At an appropriate level of difficulty
+    desc: In order for learners to progress and master the concepts they are practising, they need to remain in the zone of optimal cognitive load - neither too difficult nor too easy for their individual level.
+  - icon: clock-o
+    title: of a sufficient quantity
+    desc: Over and above targeted practice, learners need a sufficient quantity of regular practice, at regular intervals, for the benefits to accumulate over time.
+
+
+
+
+---
+
+<div class='parallax-pin-middle' style='background-image: url(images/sliders/mock-ups-close.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Our technology" tagline="Our approach in technology development" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class="full" style="background: #f5f5f5">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Finding a meaningful application of technology" tagline="Why we produce open textbooks, but didn't stop there"%}
+      <div class="spacing"></div>
+   </div>
+   </div>
+    <div class='row'>
+      <div class='medium-9 columns'>
+              <p>We believe, quite simply, that everyone should have <b>access</b> to the basic resources that they need to achieve their education.</p>
+              <p>In pursuit of making education accessible, Siyavula has produced book titles spanning Mathematics and Science subjects from Grades 4-12. These are high-quality, curriculum-aligned <b>Open Educational Resources</b>.  Releasing them under a Creative Commons licence lowers the legal barrier to sharing them, while making them available in multiple formats lowers technical barriers to accessing them.</p>
+              <p>We're proud of the fact that you can access our books for free online (even from the most basic internet-enabled phone), as an ePub, or a PDF file ready for printing.</p>
+      </div>
+      <div class='medium-3 columns'>
+
+        <a class='button small second' href='technology-components.html'>More about our book builder technology</a>
+
+
+        <a class='button small second' href='work-oer.html'>More about our open textbooks</a>
+
+      </div>
+  </div>
+  <div class="row">
+    <div class='large-2 columns'>
+      <p>That said, a school’s mandate is to provide an effective learning experience and, while it is important to us to make good content easily accessible, we don't believe digital content is necessarily any better than paper.</p>
+      <p>To see any really beneficial use of technology in education effective pedagogical approaches must be developed and put in place.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+    <div class='large-10 columns'>
+      <img class="fadeinright" alt="" src="images/products/meaningful-tech-slim.png" />
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class='mod modCallToAction'>
+      <div class='medium-12 columns'>
+        <p class="fadeinright">Rather than developing technology for technology’s sake, Siyavula starts with the foundations of good teaching and learning and then works on developing the best tools to support them.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="spacing"></div>
+
+<div class='full'  style='background: #fff'>
+  <div class='row'>
+     <div class="large-12 columns">
+       {% include section-header.html title="Building from the foundations" tagline="What are the best practices for learning and developing mastery?"%}
+       <div class='spacing'></div>
+      <p>
+       In addition to having access to pedagogically-sound content and instruction, practice is essential to learning - most particularly in Mathematics and the Sciences.  Research, theory and experience have shown that to facilitate the most effective learning, <b>practising for mastery</b> needs to be:</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services_left %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services_right %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+  <div class='mod modCallToAction'>
+   <div class='medium-9 columns'>
+      <p>Using this approach, we have developed technology and tools to enable effective, efficient and personalised practice for mastery.</p>
+   </div>
+   <div class="medium-3 columns">
+    <a class='button' href='technology-components.html'>Find out more</a>
+      </div>
+    </div>
+   </div>
+</div>
+
+<div class='full'  style='background: #f5f5f5'>
+  <div class='row'>
+     <div class="large-12 columns">
+       {% include section-header.html title="Maximising technological reach" tagline="Being innovative, without leaving people behind"%}
+       <div class='spacing'></div>
+      <p>
+       We build sophisticated tools and programs, but make sure they remain device independent and embrace open standards to maximise reach.</p>
+       <p>While access to computers may sometimes be limited, mobile phone penetration in Africa is high and provides the continent’s primary access to the web. We pay careful attention to making sure our book content and Intelligent Practice can be accessed from even the most basic internet-enabled cellphone.</p>
+      <div class='spacing'></div>
+    </div>
+    <div class='medium-3 columns middle'>
+      <img class="fadeinleft" alt="" src="images/products/Saas.png" />
+      <div class='spacing'></div>
+    </div>
+    <div class='medium-3 columns'>
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple-slim'>
+            <h3>Software as a service</h3>
+              <ul>
+                <li>Access from anywhere, on any web-enabled device</li>
+                <li>Automatic upgrades and continuous addition of new exercises and features without installation headaches</li>
+                <li>Automated backups</li>
+                <li>Issues responded to by our team</li>
+                <li>No servers required</li>
+              </ul>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+    </div>
+    <div class='medium-3 columns middle'>
+      <p style="align:right;"><img class="fadeinleft" alt="" src="images/products/WebStandards.png" /></p>
+      <div class='spacing'></div>
+    </div>
+    <div class='medium-3 columns'>
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple-slim'>
+            <h3>Open web standards</h3>
+              <ul>
+                <li>Maximum device support</li>
+                <li>Future-proof solutions</li>
+                <li>Avoid risk of platforms dying like Flash or Adobe Air</li>
+                <li>Maximises our access to innovation</li>
+                <li>Support everything from a feature phone, to a smart device, to a PC</li>
+              </ul>
+
+          </div>
+          <div class='two spacing'></div>
+        </div>
+    </div>
+  </div>
+  <div class='spacing' id="KEY"></div>
+</div>
+
+

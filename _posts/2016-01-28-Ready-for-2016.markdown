@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Ready for 2016!"
+date:   2016-01-28 08:19:12
+author: Megan Beckett
+images: images/blog/16-01-28/cover.png
+
+excerpt:
+  After a refreshing Summer holiday, we all came back and kick started 2016 by first reflecting on last year, reviewed what worked, what didn't work, for us as individuals and as a company, set our goals and we're now ready to take on 2016. Here's a summary of some of the happenings at Siyavula and further afield.
+categories:
+  - company
+  - practice service
+---
+After a refreshing Summer holiday, we all came back and kick started 2016 by first reflecting on last year, reviewed what worked, what didn't work, for us as individuals and as a company, set our goals and we're now ready to take on 2016. Here's a summary of some of the happenings at Siyavula and further afield.
+
+#### South African Community
+
+One of our three foundations that form the core of all that we do, is **community**. We believe in working with the community on a small and large scale, drawing on the strengths and experiences of others to make sure what we do is relevant and has a broad impact. We have along history of engaging with a wide community of volunteers, contributors, teachers, learners, parents, department officials, curriculum advisors, academics, university students, in South Africa and around the world.
+
+We feel especially privileged to have come into contact and developed relationships with some incredible teachers in South Africa over the years. One such teacher is Colleen Henning, who we have been collaborating and working with for several years now. In 2015, we helped to organise and run the inaugural **Physics Teachers Conference and Workshop**, championed by Colleen, and hosted at St John's College in Johannesburg and then St Cyprian's School in Cape Town. This was a wonderful, inspiring event that really helped to bring teachers together and we hope the community will continue to grow.
+
+Furthermore, [Colleen Henning](http://www.globalteacherprize.org/finalist/colleen-henning) and [Warren Sparrow](http://www.globalteacherprize.org/finalist/warren-sparrow) from Rondebosch Boy's High School, were among the Top 50 Finalists for the Global Teacher Prize, making South Africa proud!
+
+Colleen and their collaborative "Accelerating Africa" team from St John's College and Barnato Park High School (pictured below), were the winners for CERN's 2015 Beamline for Schools Competition. The group got to travel to CERN at the end of last year to conduct their own experiment using an accelerator beam. Exciting!
+
+<img src="/images/blog/16-01-28/community.png">
+
+#### Closer to home
+At the end of 2014, Siyavula partnered with the Vodacom Foundation to be an implementation partner in their Mobile Education Schools programme. The Mobile Education Schools  programme provides various levels of sponsorship, including hardware (computers, interactive whiteboards, printers) and internet connectivity, to over 1000 quintile 1-4 government schools.
+
+Siyavula was brought on board to provide access to and support for the implementation of Intelligent Practice at 72 government high schools across the country. Our team successfully trained teachers from the schools and assisted in learners utilising the service.
+
+From the middle of February 2015 through to the middle of December 2015, learners in Vodacom sponsored schools completed nearly 330 000 Maths and Science exercises. Usage was not centered only in urban areas; the top users in the programme were Grade 10 learners from a rural part of KwaZulu-Natal outside of Ixopo.
+
+In October of 2015, the Vodacom Foundation decided to renew sponsorship of the Intelligent Practice Project for the 2016 school year to build upon the success and knowledge gained from 2015.
+
+We will have a more detailed report out soon.
+
+<img src="/images/blog/16-01-28/anybody.png">
+
+#### Back in the office
+In 2015 the **Ed Tech Production** team made updates to 671 exercises, and we added 112 new exercises to improve coverage and scaffolding. Remember, each of those exercises is able to  generate multiple variations of itself - all testing the same core concepts, but each requiring a different answer.
+
+We have great aspirations for 2016, we are improving our offering for South Africa and have expanded our team. In January, while training up new Educational Technologists to make amazing exercises, we have produced 8 new exercises and have several more in the pipeline.
+
+In addition to the two new Educational Technologists, we've also had a new Front End Developer and Operations Manager join our ever growing team this year. This was cause for a reshuffling of the office space at the start of the year. It's very useful having a workspace that is able to adapt to our needs as we grow and learn!
+
+
+#### Consolidating our communication
+From updating our company website, reinstating our blog, combining our various newsletters, revamping our social media channels, we spent a significant amount of time in 2015 making sure that we are getting our message out there and communicating what we do. We recently finished a **series of short videos** focusing on the different aspects of Intelligent Practice, our premium online service, built to enable learners to practice and master Mathematics and Physical Science.
+
+If you're curious about the technology and cognitive science behind Intelligent Practice, this is your opportunity to get an insider's view:
+
+- To find out more about the background to Siyavula and the key features and benefits of the adaptive learning engine, watch our **[Introduction](https://www.youtube.com/watch?v=jLN6k4QOpjU&feature=youtu.be)**.
+- Alternatively, take a closer look the various innovative **[Technology](https://www.youtube.com/watch?v=_Eycya8UDcI)** components we have built to enable and support our service.
+- Or delve into some of the key pieces of research, theory, evidence and practical experience that have informed what we design and develop to truly impact learning and teaching, in our **[Cognitive Science](https://www.youtube.com/watch?v=LlKAUgoMkTE)** video.
+
+<img src="/images/blog/16-01-28/videos.png" alt="Screenshots of videos">
+
+
+#### From the learning corner
+
+##### How do we nurture a growth mindest?
+
+One of the best things is that we are born to learn. But, a lot of people are held back by their mindset. They think intelligence is fixed. But, it isn’t. Your intelligence can grow and blossom with the effort you put in.
+
+New research (particularly pioneered by [Carol Dweck](http://mindsetonline.com/abouttheauthor/)) shows we can take control of our ability to learn. We can all become better learners. This is because our brains are like muscles. They are malleable. We just need to build them in the right way.
+
+Part of this is understanding that struggling and failing at something is normal and a part of the growing and learning process. You must not give up but continue to put the effort in. Developing this way of thinking is called a "GROWTH mindset". Research has also shown that learners who have a growth mindset do better at school, particularly in more challenging subjects such as Mathematics.
+
+This all sounds great! But how do we actually help our learners and ourselves develop a growth mindset so conducive to learning? Engaging learners to be proactive and motivated to learn is one of our main goals for 2016.
+
+Have a look at the following toolkit we came across in our own research into a growth mindset. It contains free resources, online lessons and practices aimed at teachers and parents, to help you teach and foster adaptive learning mindsets: [www.mindsetkit.org](https://www.mindsetkit.org/)
+
+<img src="/images/blog/16-01-28/mindset3.png" alt="Growth mindset">

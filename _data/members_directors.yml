@@ -1,0 +1,21 @@
+- avatar: /images/team/Mark.jpg
+  name: Mark Horner
+  position: Director and CEO
+  socials:
+    - link: https://www.linkedin.com/in/markjnhorner
+      icon: linkedin
+    - link: https://twitter.com/marknewlyn
+      icon: twitter
+    - link: http://www.markhorner.net/
+      icon: wordpress
+  desc:
+    Mark has a Ph.D. in Nuclear Physics and is a former Shuttleworth Fellow. He initiated the Free High School Science Texts project way back in 2002. This formed the foundation upon which Siyavula is built today.
+- avatar: /images/team/Neels.jpg
+  name: Neels van der Westuizen
+  position: Director and CFO
+  socials:
+    - link: https://www.linkedin.com/profile/view?id=AAIAABGTuuUBLjaMzgAiU8Bbjr4OWk5x9vZHp4Q&trk=nav_responsive_tab_profile
+      icon: linkedin
+  desc:
+    Neels manages Siyavula’s growing business front, managing and pursuing new relationshps, partnerships and opportunities, both locally and internationally. With a wealth of experience in diverse contexts, he is focused on making Siyavula a sustainable company with a global impact.
+    

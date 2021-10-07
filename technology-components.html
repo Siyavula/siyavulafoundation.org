@@ -1,0 +1,231 @@
+---
+layout: default
+title: Technology
+section_id: Technology
+
+---
+
+<div class='parallax-pin-middle' style='background-image: url(images/sliders/wall.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Our technology" tagline="What we have and continue to build" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing' id="ITEMS"></div>
+</div>
+
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+   <div class='large-12 columns'>
+      {% include section-header.html title="Key elements of Intelligent Practice" tagline="The building blocks of our adaptive practice technology"%}
+      <div class='spacing'></div>
+      </div>    
+  </div>
+
+  <div class='row'>
+
+    <div class='medium-12 columns'>
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple-slim'>
+            
+            <h3>1. Generative questions</h3>
+            <p>The <b>design of questions</b> on Intelligent Practice is rooted in sound pedagogy, expert content knowledge and skilled use of technology. Our in-house team of Educational Technologists includes both experienced teachers and content specialists from the fields of Physics, Chemistry and Mathematics. We are constantly expanding our own pedagogical content knowledge to ensure we can tailor each question we create. We pay careful attention to unpacking content in a way that puts it in context and makes it meaningful and approachable, resulting in engaging exercises that promote learning.</p>
+            <p>Rather than being limited to finite worksheets, or multiple choice questions only, we’ve incorporated <b>diverse ways of approaching and asking questions</b>, allowing us to address not only major misconceptions, but common sticking points and different reading levels too.</p>
+            <p>The system can handle the input and automatic marking of <b>multiple response types</b>, including fractions, formulae, set notation, chemical equations, spectroscopic notation and more - all instantly. Our system’s ability to accept more complex answers also means we can provide a greater range of difficulty in our questions.</p>
+            <p> The <b>generative nature</b> of each question results from the way the question is created. This is no ordinary question bank. Each question is actually an instance created from an <b>exercise template</b>. Each exercise template is built around one or more central concepts. But, the components, including images, quantities and scenarios,
+            vary with each attempt of the exercise as different instances of the template are generated. Think of it as a computer program within a computer program, 
+            with the sole purpose of generating pedagogically-sound practice items - heaps of them. Plus, the system will produce a fully worked solution to match each and every question.</p>
+          </div>
+        </div>
+        <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='small-5 medium-2 columns middle'>
+        <img class="fadeinleft" alt="" src="images/products/py-code-file.png" />
+        <div class='spacing'></div>
+        <h4>Python File</h4>
+        <p>Python is a programming language. It controls how the exercise behaves.</p>
+    </div>
+    <div class='small-2 medium-2 columns middle equation'>
+
+      <img class="fadeinleft" alt="" src="images/products/plus.png" />
+
+    </div>
+    <div class='small-5 medium-2 columns middle'>
+        <img class="fadeinleft" alt="" src="images/products/xml-code-file.png" />
+        <div class='spacing'></div>
+        <h4>XML File</h4>
+        <p>XML is a mark-up language. It specifies how the exercise is structured.</p>
+    </div>
+    <div class='small-12 medium-2 columns middle equation equation-equals'>
+
+      <img class="fadeinleft" alt="" src="images/products/equals.png" />
+
+    </div>
+    <div class='medium-4 columns middle'>
+        <img class="fadeinleft" alt="" src="images/products/generative-on-tablet.gif" />
+        <div class='spacing'></div>
+        <h4>Exercise instances</h4>
+        <p>Many versions of a question, generated from the same code, each with its own unique, fully worked solution.</p>
+      <div class='spacing'></div>
+    </div>
+  </div>
+ 
+<div class='two spacing'></div>
+
+  <div class='row'>
+   <div class='medium-7 columns'>
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple-slim'>
+            
+            <h3>2. Concept-dependency maps</h3>
+            <p>Our team of Educational Technologists has created extensive, sophisticated <b>concept-dependency maps</b> for Mathematics, Physics and Chemistry.</p>
+            <p>These highly detailed, curriculum-agnostic maps are a hierarchy of concepts, facts, misconceptions and special cases, 
+            with dependencies between nodes and groups of nodes. They plot what prior knowledge a learner would need in order to reasonably be expected to understand the concepts tested by a particular question.</p>
+            </div>
+          <div class='spacing' id="ENGINE"></div>
+        </div>
+    </div>
+    <div class='medium-5 columns'>
+        <img class="fadeinright" alt="" src="images/products/conceptmap.png" />
+      <div class='two spacing'></div>
+    </div>
+  </div>  
+  
+  <div class='row'>
+    <div class='medium-7 columns'>
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple-slim'>
+            
+            <h3>3. Adaptive learning and sequencing engine</h3>
+            <p>Behind Intelligent Practice is a machine learning engine, adapting each practise session to the needs of an individual learner by changing the difficulty and sequencing of the questions they see.  
+            To ensure that learning through practice has a significant effect on learning, the practice learners do needs to be at the <b>appropriate level of challenge</b>. 
+            An appropriate level of challenge is neither too difficult (otherwise learners struggle too much, become frustrated, confused
+            and possibly give up) nor too easy (otherwise learners become bored and are not pushed to improve). The goal of the algorithm is to maintain an optimal cognitive load so that learners, on average, get exercises right <b>70% of the time</b>. 
+	    The more they practise, the better it is able to estimate their ability. As learners progress and master concepts, the algorithm adapts so that they move through more difficult levels.</p>
+	    <p><i>If you're a Bayesian inference geek: The generative model is a hierarchical Gaussian prior over mastery scores with a binomial likelihood function and a logistic link function between the prior and likelihood. Inference is done with a fully factored variational approximation.</i></p>
+            <p> Often, traditional practice focuses on a single skill or topic at a time, in what is called "blocked practice" or drilling". Recently, studies have shown that "<b>interleaved practice</b>" 
+            is a far more effective technique to increase your ability to learn and retain information. The sequencing algorithm behind Intelligent Practice also ensures a practice session is interleaved so that learners work on several skills in parallel.</p> 
+            <p>Both of these aspects of the algorithm work together to ensure that learners stay motivated and engaged while learning.</p>
+            </div>
+          <div class='spacing'></div>
+        </div>
+    </div>
+    <div class='medium-5 columns'>
+        <img class="fadeinright" alt="" src="images/products/cognitive-load.png" />
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  
+  <div class="row">
+   <div class='medium-7 columns'>      
+     <iframe width="100%" height="315" src="https://www.youtube.com/embed/_Eycya8UDcI" frameborder="0" allowfullscreen></iframe>        
+   </div>
+   <div class="medium-5 columns">
+   <div class='mod modCallToAction'> 
+   <p>We license our adaptive practice technology, in part or in whole. Interested in adding an element of our software to your product?</p>
+    <a class='button' href='technology-licensing.html'>Find out more</a>    
+      </div>
+    </div>
+   </div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+   <div class='large-12 columns'>
+      {% include section-header.html title="Bookbuilder" tagline="Technology for efficient, automated content production" %}
+      <div class='spacing'></div>
+      </div>    
+  </div>
+    <div class='row'>
+      <div class='medium-7 columns'>
+      <p>Bookbuilder is a one-stop shop for converting our internal content XML source code into print PDFs, epubs, HTML5 and feature-phone-ready html that we serve to our users. The idea behind it is to remove the need for people to waste their time doing something the computer could do almost instantly.</p>
+      <p>Written in Python, Bookbuilder handles things like the creation of a table of contents, splitting a book into its chapters and sections, the conversion of LaTeX equations to images for feature phones and other tweaks that make the output as close to publishable as possible for multiple formats - all in one go.</p>
+      </div>
+      <div class='medium-5 columns middle'>
+        <img class="fadeinright" style="max-width: 70%" alt="" src="images/products/bookbuilder.png" />
+      </div>
+    </div>
+    <div class='two spacing'></div>
+</div>  
+      
+      
+
+
+
+
+<div class='full parallax'>
+  <div class='row'>
+    <div id="NEXT" class='large-12 columns'>
+      {% include section-header.html title="Coming up next" tagline="A small piece of our development plans" %}
+      <div class='two spacing'></div>
+    </div>
+  </div>
+ <div class='full no-padding' style='background: #fff'>
+            <div class="row">
+                <div class="large-12 columns">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/products/concept-map.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Integrating concept-dependency maps</h3>
+                                 </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We're currently linking all exercises on Intelligent Practice to concept-dependency maps we have developed for Mathematics, Physics and Chemistry. Once integrated, these maps will feed into the algorithm to better sequence the exercises according to a learner's prior knowledge, strengths and weaknesses.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/products/globe-with-network.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Curriculum mapping</h3>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">The concept-dependency maps will provide the algorithm with information to engineer a comprehensive learning experience for any learner, the world over.  Overlaying additional maps, each one dictating the specific content and order in which it is covered according to a particular curriculum, will allow us to specifically tailor Intelligent Practice to suit different countries and schooling systems.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/products/network_crop.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>An integrated learning experience</h3>
+                                 </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Our mission is to create an integrated learning experience, incorporating reading, practising, interacting, designing, programming, analysing, thinking, creating and solving, that transcends the constraints of curricula and that is truly effective and engaging</p>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                               <a href="technology-licensing.html"><h4>Be a part
+                                    <br>of our
+                                    <br>plans!</h4> </a>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Grow with us</h3>
+                                 </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">If you like the sound of where we're going and are interested in licensing or partnering with us, get in touch.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+             <div class='two spacing'></div>
+        </div>
+</div>
+
+    

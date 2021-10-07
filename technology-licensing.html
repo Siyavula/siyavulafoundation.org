@@ -1,0 +1,67 @@
+---
+layout: default
+title: Licensing
+section_id: Licensing
+services:
+  - icon: puzzle-piece
+    title: Standalone Question Item Service (QIS)
+    desc: This service allows a client to request question items according to criteria, such as the concept being tested and desired level of difficulty. The service automatically generates the question and its full model solution, delivers it to the client platform, marks the answer and returns the result to the client platform. This option is ideal for existing platforms or products that already handle the adaptive sequencing of questions, calculation and reporting of learner mastery, but seek access to high quality question items with sophisticated response types.
+  - icon: sitemap
+    title: QIS + Concept-Dependency Maps (CDM)
+    desc: By adding our detailed, curriculum-agnostic, concept-dependency maps to the Question Item Service, we can use the responses submitted by authenticated users to calculate and report their mastery for all concepts and topics. This is ideal for producing mastery dashboards or adding recommendations, both remedial and advancement, to existing platforms and products.
+  - icon: random
+    title: Adaptive Sequencing Engine
+    desc: This complete solution generates the question items, calculates the mastery of each user for each topic and adapts the sequence of questions presented to each user based on their practice history. This is ideal for clients seeking to add a complete practice for mastery solution to their platform or offering.
+  - icon: plus-circle
+    title: Other services
+    desc: We also work with clients to develop new or custom question items and topic maps needed for curriculla or areas that are not yet covered by us.
+
+    
+---
+
+<div class='parallax-pin-middle' style='background-image: url(images/sliders/working.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Licensing our software" tagline="Tap into what we do" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <p>We developed a number of assets that are needed to deliver adaptive practice for mastery, which includes a large set of generative and self marking question items, detailed concept-dependency maps and an adaptive sequencing algorithm.</p>
+      <p>These assets are packaged as building blocks for licensing by publishers, adaptive learning providers, adaptive platforms or academic institutions and integration into client platforms.</p>
+      <div class='spacing'></div>
+    </div>  
+  </div>
+
+  <div class='row'>
+    <div class='large-12 columns'>
+     {% for service in page.services %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+            </div>
+          <div class='spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+    <div class='spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>For pricing and other information about licensing, please contact us directly.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='button' href='contact.html'>Get in touch</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+ </div>

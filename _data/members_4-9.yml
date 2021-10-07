@@ -1,0 +1,97 @@
+- avatar: images/catalogue/TBK-4.png
+  name: Gr 4 (A & B)
+  position: Natural Sciences and Technology
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaNm4zdEo5eENjOFE
+      icon: download
+      desc: PDFs 
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTSm5ka3NpblUxOG8
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTWk41MXpIbmY3MEE
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)
+- avatar: images/catalogue/TBK-5.png
+  name: Gr 5 (A & B)
+  position: Natural Sciences and Technology
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaUDdNdF8xaTVjeUU
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTSk5lN0JpbHNnRFk
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTWXMwTDN6UWk1LTQ
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)    
+- avatar: images/catalogue/TBK-6.png
+  name: Gr 6 (A & B)
+  position: Natural Sciences and Technology
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaU0xDUnBuUk9BOEE
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTa0V2Vk1nV00zdWM
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTLXlRZkp5OVVkWjA
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)
+- avatar: images/catalogue/Explore-7A.png
+  name: Gr 7 (A & B)
+  position: Natural Sciences
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaaEsyNVJWc3pCTUE
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTNkdSYUdyZjA4Yk0
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTZVl4Rm04UGxEdm8
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)
+- avatar: images/catalogue/Explore-8A.png
+  name: Gr 8 (A & B)
+  position: Natural Sciences
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaSTFmYWx1NUNvMUE
+      icon: download
+      desc: PDFs (CC-BY-ND)
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTdy10VHBMZktXblU
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTejM3THpxbms1c28
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)  
+- avatar: images/catalogue/Explore-9A.png
+  name: Gr 9 (A & B)
+  position: Natural Sciences
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvac0Q5S3JOUWFHaUU
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTRkpvbi10VTBDbmc
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTNjZEajloamxRNDQ
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)

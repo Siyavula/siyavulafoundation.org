@@ -1,0 +1,74 @@
+- avatar: /images/team/Adam.jpg
+  name: Adam Reynolds
+  position: Educational Technologist - Physics
+  desc:
+    Adam has a BSc (majoring in Physics, Astrophysics, Mathematics & Applied Mathematics) and a PGCE from UCT. In addition to being an Educational Technologist he still teaches Physical Sciences part-time and is also a senior marker for Physics.
+- avatar: /images/team/Anthea.jpg
+  name: Anthea Baroutsos
+  position: Operations Manager
+  socials:
+    - link: https://za.linkedin.com/in/anthea-baroutsos-1415a015
+      icon: linkedin
+  desc:
+   As Operations Manager, Anthea manages the internal work processes that help Siyavula run smoothly and efficiently.
+- avatar: /images/team/Heather.jpg
+  name: Heather Williams
+  position: Full-stack Developer
+  desc:
+    Heather handles an assortment of development tasks for Siyavula from fixing annoying bugs to creating new features to ensuring that all maths rendering works. She enjoys software that works, first time and dabbling in different programming languages.
+- avatar: /images/team/Hein.jpg
+  name: Hein Bekker
+  position: Senior Front-end Developer
+  socials:
+    - link: https://za.linkedin.com/in/heinbekker
+      icon: linkedin
+    - link: https://twitter.com/netbek
+      icon: twitter
+  desc:
+    As front-end developer, Hein ensures that Siyavula's online products look and work beautifully. When not wrangling code, he thinks about civic engagement, education, and openness.
+- avatar: /images/team/Kate.jpg
+  name: Kate Davies
+  position: Educational Technologist - Chemistry
+  socials:
+    - link: https://za.linkedin.com/pub/kate-davies/18/214/2b7
+      icon: linkedin
+  desc:
+    Kate has a Ph.D. in X-ray Crystallography from UCT and is the Chemistry specialist for the EdTech Production Team. Her role includes creating, curating and implementing chemistry content for Siyavula's online practice service.
+- avatar: /images/team/Leehan.jpg
+  name: Léhan Coetzee
+  position: Software Development Team Lead
+  desc:
+    Léhan has a passion for technology and especially enjoys writing software, finding simple solutions to complex problems and experimenting with new technologies.
+- avatar: /images/team/Mathlodi.jpg
+  name: Mathlodi Goeieman
+  position: Project Support Specialist
+  desc:
+    Matlhodi is a Project Support Specialist, who effectively trains learners and educators on how to use Siyavula Practice. She maintains an open line of communication with all stakeholders, assisting them with any questions or issues they may have.
+- avatar: /images/team/Nomfundo-grayscale.jpg
+  name: Nomfundo Mashala
+  position: Schools Account Manager
+  desc:
+    Nomfundo has a BA in Psychology. As an Account Manager for Schools in Gauteng, she maintains smooth client relationships by offering training and quality support to teachers and learners. She is passionate about education. She finds fulfilment when working in projects that are aimed at developing the process of teaching and learning. The world that she dreams of is where all teachers teach with passion and all learners are eager learn. To have a role in a programme that inspires educational development through technological innovations is special to her because it contributes towards bringing her dream closer and closer to reality.
+- avatar: /images/team/Rich.jpg
+  name: Richard Cochrane
+  position: Software Development Manager
+  socials:
+    - link: https://za.linkedin.com/in/richardcochrane
+      icon: linkedin
+    - link: https://twitter.com/screamer42
+      icon: twitter
+  desc:
+    Rich enjoys writing software AND working with people, solving real problems with meaningful impact. With a a BBusSc (IS Hons), he really wants every learner to have access to improving their maths and science skills.
+- avatar: /images/team/Ros.jpg
+  name: Ros Clayton
+  position: Educational Technologist - Mathematics
+  desc:
+    Ros has an undergraduate degree in mathematics from UCT and a master's in mathematics education from the University of Cambridge. Her experience teaching high school maths in South Africa informs her approach to content development at Siyavula.
+- avatar: /images/avatars/future-siyavula-geeks.gif
+  name: Join our team!
+  position: Visit our careers page
+  socials:
+    - link: /about-careers.html
+      icon: lightbulb-o
+  desc:
+    We are always on the look out for exceptional people to join us on our mission.

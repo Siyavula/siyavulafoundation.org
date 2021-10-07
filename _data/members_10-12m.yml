@@ -1,0 +1,66 @@
+- avatar: images/catalogue/Maths-10.png
+  name: Gr 10
+  position: Mathematics
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaNjlmMGdfVllrVnM
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTekFMZkNEM0gwN3M
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTV3FCNFRsOE9pSE0
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)
+- avatar: images/catalogue/Maths-11.png
+  name: Gr 11
+  position: Mathematics
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaallmZV9HVDVLa1E
+      icon: download
+      desc: PDFs (CC-BY-ND)
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTaDVXZENnXzhUb1k
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTSnhVWGJhNkNGSms
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)    
+- avatar: images/catalogue/Maths-12.png
+  name: Gr 12
+  position: Mathematics
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaTlZKaGp0TmR4QjQ
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTU1ZSazBLblV2bEU
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTLXhlTVltWWZGS1U
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)
+- avatar: images/catalogue/Maths-Lit-10.png
+  name: Gr 10
+  position: Mathematical literacy
+  socials:
+    - link: https://drive.google.com/open?id=0Bz69EszGvRvaWG1fVmdYeDBsMDA
+      icon: download
+      desc: PDFs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTU056M3l1X2RVWTA
+      icon: download
+      desc: ePUBs
+      license: (CC-BY-ND)
+    - link: https://drive.google.com/open?id=0B_llYI8qojoTWXFNb0JSemVpVGc
+      icon: download
+      desc: ePUBS
+      license: (CC-BY)
+

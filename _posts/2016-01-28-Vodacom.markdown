@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "Our year on the road: The Intelligent Practice Project"
+date:   2016-02-04 08:19:12
+author: Gina Sulprizio
+images:
+  - images/blog/16-02-04/vusisizwe.jpg
+excerpt:
+  Our work with the Vodacom Foundation’s Mobile Education Schools Programme brought us deep into seven of South Africa’s nine provinces. We visited schools in the Cape Winelands and in and around Mamelodi, Gauteng. We drove through thunderstorms in the highveld of ThabaNchu, Free State. On more than one occasion we rented 4x4s to take us on dirt roads outside of Ixopo, KwaZulu-Natal. We also travelled on dirt roads near Lady Frere in the Eastern Cape, but that was done in a Chevy Spark. Needless to say, with our adventures we learned a few lessons along the way.
+categories:
+  - practice service
+  - sponsored project
+---
+#### Made possible by the Vodacom Foundation
+
+Over the past 16 months, Siyavula has embarked on quite a few new paths, figuratively and literally. By October of 2014, a whole new three-person team at Siyavula had been created. The *Vodacom Project Team*, now called the Sponsored Schools Team, was instated to run Siyavula’s Intelligent Practice Project within the Vodacom Mobile Education Schools Programme.
+
+<img src="/images/blog/16-02-04/team.png">
+
+Our work with the Vodacom Foundation’s Mobile Education Schools Programme brought us deep into seven of South Africa’s nine provinces. We visited schools in the Cape Winelands and in and around Mamelodi, Gauteng. We drove through thunderstorms in the highveld of ThabaNchu, Free State. On more than one occasion we rented 4x4s to take us on dirt roads outside of Ixopo, KwaZulu-Natal. We also travelled on dirt roads near Lady Frere in the Eastern Cape, but that was done in a Chevy Spark. Needless to say, with our adventures we learned a few lessons along the way.
+
+<img src="/images/blog/16-02-04/ec.jpg">
+
+More important than our travels were the 300+ teachers and nearly 4000 South African learners from low-income or rural government schools that we were able to meet, support, and encourage throughout the year.
+
+But first, let us start from the beginning.
+
+Intelligent Practice is an online program and getting online costs money; we know that not all South Africans can afford to spend money on airtime or data. To make Intelligent Practice as accessible as possible, Vodacom **zero-rated** our website which means that with a Vodacom SIM card, anyone (to this day!) can access Intelligent Practice without incurring data or airtime costs. The zero-rating proved to be an integral part of the Intelligent Practice project.
+
+Out of nearly 1000 schools that Vodacom was already supporting, we were asked to choose 72 to support. Those 72 schools would be offered access to Intelligent Practice for their FET Phase (Gr 10-12) learners and teachers as well as assistance along the way. While Siyavula’s current clients (schools) have always been spread throughout the country, we quickly realised that most of the Vodacom-sponsored schools were a bit further off the beaten path.
+
+<img src="/images/blog/16-02-04/map.png">
+
+To prepare ourselves for rolling out the full scale project, we conducted a pilot at the end of 2014 in four rural KwaZulu-Natal schools and three schools in the Cape Winelands. Some of the KZN schools did not having running water or reliable electricity in all the classrooms. A few had very poor Vodacom network reception due to the hilly surroundings. However, despite the fact that learners and teachers at these schools were unfamiliar with eLearning programs, they were eager to see how Intelligent Practice could positively impact their experience. These two months gave us a good taste of what was to come.
+
+#### Getting the message out there
+
+The Vodacom Project team was intent on distributing Intelligent Practice access to all FET learners at each of the 72 country-wide schools before the end of the first school term (end of March). But in order to reach so many places and people so quickly, we decided to host group teacher workshops so that we could connect neighbouring schools on the project and be more efficient.
+
+The workshops were a great success. While the experience level of the teachers we invited varied quite dramatically - some used technology with ease, some learned to use a mouse that very day - we had an excellent turnout and reception. At each training, we had no less than 85% attendance.
+
+<img src="/images/blog/16-02-04/training.png">
+
+The three-hour training covered lots of information, but the primary objective was to teach the teachers enough about Intelligent Practice so that they could in turn teach their learners. We gave the teachers handouts to pass along to the learners, provided them with access codes for each learner, equipped them with as much knowledge and advice as possible, and then hoped that the program would reach the kids!
+
+#### Learners run with Intelligent Practice
+
+Almost immediately after each training we would see learners from those schools create Intelligent Practice accounts and start practicing. Even more exciting was that in creating an account, learners gave Siyavula the ability to contact them directly. We began brainstorming ways to to motivate and assist our learners.
+
+We wanted to encourage our learners to use their maths and science access to Intelligent Practice, not only because we love the program, but because we genuinely want to see South African maths and science education improve! To motivate the learners we used a few strategies including a start up competition, inspirational SMSs, learner of the month recognition, and the creation of school leaderboards which displayed learners’ ranking in their own school and their ranking at a program-wide, national level.
+
+Intelligent Practice, of course, is not only a tool for learners. The teacher-facing side of the program provides teachers with analytical insight into how their learners are working. The Vodacom Project Team engaged regularly with the teachers. We published monthly newsletters, created WhatsApp “community user-groups”, and went back to visit schools who were most keen to use Intelligent Practice.
+
+<img src="/images/blog/16-02-04/nandi.png">
+
+#### The numbers
+
+The Siyavula team is continually proud of the results from 2015. Nearly 4000 learners from these Vodacom sponsored schools registered accounts with Intelligent Practice. By the end of December these learners had completed **THREE HUNDRED AND THIRTY THOUSAND** maths and science exercises on their mobile phones. If we estimate that each question takes on average 3 minutes to complete, Vodacom sponsored learners spent almost 700 days practising maths and science in 2015.
+
+#### Who were these learners?
+
+<img src="/images/blog/16-02-04/learners.png">
+
+##### They were:
+
+**Precious Nikiwe** from Desmond Mpilo Tutu Secondary in Mbekweni, Western Cape. Precious lives in a home with her older sister and younger brother; their mother lives in the Eastern Cape. Precious won the startup competition at her school by completing the most exercises within the first term. She spends up to two hours a day practising on Intelligent Practice to get closer to her dream of becoming a doctor.
+
+**Sineliso Sithole** from Dumabezwe Secondary near Ixopo, KwaZulu-Natal. By the end of the year, Sineliso had completed over 16 000 exercises on Intelligent Practice. Because he did not have mobile reception at his school or at home, Sineliso did most of his practising on a nearby hill where he had clear coverage.
+
+We cannot mention Sineliso without also taking off our hats to his classmate **Bukhosi Majozi**; Bukhosi completed more exercises on Intelligent Practice than any other Vodacom learner in 2015. At the end of the year, Bukhosi had put a hugely impressive 19 000 exercises under his belt.
+
+And, **Melisa Dyonta** from Ida H Secondary in the Eastern Cape who not only won her school’s startup competition, but continued to top her school leaderboard throughout the year.
+
+#### Looking to the future
+The Sponsored Schools Team (formerly Vodacom Project team) is grateful and excited that the Vodacom Foundation decided to continue sponsorship of the Intelligent Practice Project for the 2016 school year.
+
+By being able to build on our experiences from 2015, we will move into this new school year with a more refined process, new ideas to try, and a renewed enthusiasm.

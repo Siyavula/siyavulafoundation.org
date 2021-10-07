@@ -1,0 +1,108 @@
+---
+layout: default
+title: Our work
+section_id: work
+
+services_left:
+  - icon: question-circle
+    title: How and at what rate are learners progressing through the curriculum?
+    desc: 
+  - icon: question-circle
+    title: What is the current level of mastery of learners in a school, district, province or the country?
+    desc: 
+  - icon: question-circle
+    title: When and how are learners practising throughout the day? What does this tell us about access to technology in these contexts?
+    desc: 
+services_right:
+  - icon: question-circle
+    title: What is the aggregated level of effort for learners in a particular school, area or province?
+    desc: 
+  - icon: question-circle
+    title: What are the most common problem areas or misconceptions and do these vary with different contexts?
+    desc: 
+  - icon: question-circle
+    title: Can we identify classes, schools or districts where intervention is most needed based on their current performance?
+    desc: 
+---
+
+
+<div class='non-parallax' style='background-image: url(images/sliders/rich-monitors-long.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our work" tagline="Analysis and data driven management" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+<div class='full'>
+  <div class='row slim'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides' style='vertical-align: middle;'>
+          <div class='slide'>
+            <img alt="" src="images/work/dashes-on-tablets.png" />
+          </div>
+          <div class='slide'>
+            <img alt="" src="images/work/practice-activity.jpg" />
+          </div>
+          <div class='slide'>
+            <img alt="" src="images/work/mathematics-activity.jpg" />
+          </div>
+          <div class='slide'>
+            <img alt="" src="images/work/content-plot.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+  <div class='large-12 columns'>
+  <h3>The science and art of data analysis and making data-driven decisions is becoming more and more prevalent in our society. Education must benefit.</h3>
+  <p>
+  The Learner and Teacher dashboards on Siyavula Practice display data insights on a small scale. Zooming out we can visualise
+  and interpret the data we collect for a whole school, province or country.
+      </p>
+  <p>Through the widespread readership of our open, online content, coupled with the data from Siyavula Practice, we have a large-scale monitoring system that provides unique insights and helps answer questions such as:</p>
+  </div>
+    <div class='spacing'></div>
+      <div class='medium-6 columns'>
+      {% for service in page.services_left %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <p><b>{{service.title}}</b></p>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services_right %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <p><b>{{service.title}}</b></p>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  <div class='spacing'></div>
+  </div>
+    <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>Whether for research purposes, large-scale continuous formative assessment, project management, monitoring and evaluation, curriculum development, educational decision making and policy impact, talent identification, accountability, assessing technology infrastructure and mobile penetration, we have the data and the insights.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <div class='two spacing'></div>
+        <a class='button' href='contact.html'>Contact us</a>
+      </div>
+    </div>
+  </div>
+    <div class='two spacing'></div>
+</div>

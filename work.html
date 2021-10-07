@@ -1,0 +1,190 @@
+---
+layout: default
+title: Work
+section_id: work
+
+services:
+  - icon: mobile-phone
+    title: Technological reach
+    desc: We build sophisticated tools and programs, but make sure they remain device independent and embrace open standards. By catering for feature phones, therefore maximising device coverage, we can serve users from lower socio-economic brackets.
+  - icon: bar-chart
+    title: Data and analysis
+    desc: The large-scale and widespread use of our practice service coupled with the online readership allows us to monitor, analyse and gain insight into the current and evolving state of Maths and Science education. With our data, we can answer big questions.
+  - icon: child
+    title: Empowering communities
+    desc: Working closely with sponsors to further our reach to low-income or marginalised communities has always been part of what we do. In fact, most of our school users are from poor, rural schools.
+  - icon: retweet
+    title: Partnering with others
+    desc: At Siyavula, we believe in collaboration and finding partners who have strengths and expertise that complement our own. This makes for meaningful, impactful, sustainable partnerships. 
+
+
+works:
+  - image: images/work/textbooks.jpg
+    title: Open textbooks
+    link_to: work-oer.html
+    klass: open
+    desc: 
+  - image: images/work/data2.jpeg
+    title: Data and analysis
+    link_to: work-data.html
+    klass: data
+    desc: 
+  - image: images/work/training.jpg
+    title: Partnered work
+    link_to: work-partnered.html#TRAINING
+    klass: partnered
+    desc: Subject Advisor Training
+  - image: images/work/vodacom.jpeg
+    title: Partnered Work
+    link_to: work-partnered.html
+    klass: partnered
+    desc: Sponsoring Siyavula Practice
+  - image: images/work/bft.png
+    title: Partnered work
+    link_to: work-partnered.html#VENTURES
+    klass: partnered
+    desc: Ventures 
+  - image: images/work/textbooks2.jpg
+    title: Open textbooks
+    link_to: work-oer.html
+    klass: open
+    desc: 
+  - image: images/work/data3.jpeg
+    title: Data and analysis
+    link_to: work-data.html
+    klass: data
+    desc:
+  - image: images/work/textbooks3.jpg
+    title: Open textbooks
+    link_to: work-oer.html
+    klass: open
+    desc: 
+  - image: images/work/textbooks4.jpg
+    title: Open textbooks
+    link_to: work-oer.html
+    klass: open
+    desc: 
+  - image: images/work/otproduction.png
+    title: Partnered work
+    link_to: work-partnered.html#OPEN
+    klass: partnered
+    desc: Sponsoring, printing and distributing open textbooks
+  - image: images/work/data1.png
+    title: Data and analysis
+    link_to: work-data.html
+    klass: data
+    desc: 
+  - image: images/work/sponsorship.jpg
+    title: Partnered Work
+    link_to: work-partnered.html
+    klass: partnered
+    desc: Sponsoring Siyavula Practice   
+---
+
+
+<div class='parallax-pin-middle' style='background-image: url(images/sliders/desks.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our work" tagline="The impact and reach of what we do" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='open' href='#'>Open textbooks</a>
+          </li>
+          <li>
+            <a data-cat='partnered' href='#'>Partnered work</a>
+          </li>
+          <li>
+            <a data-cat='data' href='#'>Data and analysis</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+        {% for work in page.works %}
+          <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p>{{ work.desc }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p>
+        The value and impact of Mathematics and Science education extends far beyond the classroom walls.
+Critical and analytical thinking, creativity and exploration, problem solving and collaboration - these are
+the skills needed to support careers from technology development to astronomy, from data science to
+finance, from engineering to economics. These are the skills we need for innovation, growth and change.
+      </p>
+      <p><b>With this in mind, Siyavula has a social mission.</b></p>
+      <h4>Each individual should have access to the resources and support they
+need to achieve the education they deserve.</h4>
+<p> Ensuring that Siyavula Practice is accessible does not only mean producing a quality learning
+experience at an affordable price. It also means leveraging the affordances of technology and the insights
+of cognitive science to reduce the inequality in our education system. </p>
+<p>
+As a South African company, we find evidence of these challenges and disparities very close to home, with
+our country producing some of the lowest results in international educational assessments and rankings.</p>
+<p><b>We are working to change this.</b></p>
+     <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-6 columns middle'>
+      <img class="fadeinleft" alt="" src="images/work/hands.png" />
+      <div class='spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+      <div class='full no-padding' style='background: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>We are always looking for new ways to partner and collaborate - locally, nationally and internationally.</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='button' href='contact.html'>Contact us</a>
+      </div>
+    </div>
+  </div>
+</div>

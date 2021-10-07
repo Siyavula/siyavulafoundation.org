@@ -1,0 +1,279 @@
+---
+layout: default
+title: Siyavula
+section_id: home
+slides:
+  - bg: images/sliders/office-original.jpg
+    small_title:
+      klass: bottom-to-top
+      text: enabling, creating, innovating
+    title:
+      klass: bottom-to-top
+      text: learning and teaching
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: products-high-school.html#EXP
+  - bg: images/sliders/chess.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: A powerful, adaptive learning experience for
+    title:
+      klass: bottom-to-top
+      text: maths and science
+    buttons:
+      klass: bottom-to-top
+      items:
+        - klass: boxed
+          text: View key elements
+          link_to: technology-components.html
+        - text: Licensing options
+          link_to: technology-licensing.html
+  - bg: images/sliders/long-table.jpg
+    small_title:
+      klass: bottom-to-top
+      text:  A diverse team of
+    title:
+      klass: bottom-to-top
+      text: passionate scientists
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: about.html
+
+
+services:
+  - icon: trophy
+    title: Openness
+    desc: We believe in openness, a key principle in our philosophy that every learner and teacher should have access to high quality educational resources as a basis for long-term growth and development.
+  - icon: cogs
+    title: Technology
+    desc: We believe in investing time and research into building technology that facilitates deep learning experiences, specifically in Mathematics and Science.
+  - icon: pagelines
+    title: Community
+    desc: We believe in working with the community on a small and large scale, drawing on the strengths and experiences of others to make sure what we do is relevant and has a broad impact.
+
+
+milestones:
+  - icon: group
+    from: 0
+    to: 18
+    title: awesome people on our team
+  - icon: graduation-cap
+    from: 0
+    to: 31
+    title: qualifications under our roof
+  - icon: line-chart
+    from: 0
+    to: 30778885
+    title: exercises completed on our practice service
+  - icon: book
+    from: 0
+    to: 10000000
+    title: openly-licensed textbooks on desks
+
+testimonials:
+  - quote: The whole team is so open for suggestions and input from teachers...With a casual, conversational way they share so much knowledge and it is evident that they know what they are talking about.
+    author: Rozelda Pienaar, Deputy Principal, Prestige College
+  - quote: We find that Intelligent Practice is an effective tool that not only helps the students, but supports the teacher. It’s a fun new way of laying strong foundations in Mathematics and Science.
+    author: Mathematics and Science Department, Maragon Olympus
+  - quote: We are thankful that we came across the wonderful programme and amazing group of people that have a passion for what they do and have the teachers’ and learners’ best interest at heart.
+    author: Rozelda Pienaar, Deputy Principal, Prestige College
+  - quote: Maths is very important to me because it can open a lot of opportunities for me. Many people see maths as something that is very difficult, but this system shows us that maths is actually pretty easy.
+    author: Pontsho Mathuma, Learner, Olico Youth
+  - quote: I improved exceedingly well, not only with Everything Maths but also at school. I also give myself time to practise Mathematics as I know that the more I practise the more I improve and the more opportunities I get to fulfil my dreams.
+    author: Sinenhlanhla Shezi, Learner, Barnato Park High School
+
+---
+
+<!--
+<div class='mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign class = 'current' %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+        <li class="{{class}}"></li>
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign style = 'static' %}
+        {% else %}
+          {% assign style = '' %}
+        {% endif %}
+
+        <li class='frame {{style}} {{ slide.klass }}'>
+          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='small-title {{ slide.small_title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>{{ slide.small_title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='title {{ slide.title.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <h2>{{ slide.title.text }}</h2>
+              </div>
+            </div>
+          </div>
+          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
+            <div class='row'>
+              <div class='large-12 columns'>
+                <div class='two spacing'></div>
+                {% for button in slide.buttons.items %}
+                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+-->
+<div class="full" style="background: #f5f5f5;">
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our vision" %}
+      <div class="spacing"></div>
+      <div class='mod modCallToAction'>
+      <p class='centered-text'>
+      A world in which learning is <b>celebrated</b> and <b>pursued</b>; education is <b>accessible</b>; curiosity is <b>embraced</b>; sharing is <b>fundamental</b> to our being; and technology is <b>empowering</b>, for each and every individual, each and every day.
+      </p>
+      </div>
+    </div>
+  </div>
+
+<div class="two spacing"></div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      {% include section-header.html title="Our mission" %}
+      <div class="spacing"></div>
+      <div class='mod modCallToAction'>
+          <p class='centered-text'>
+            Our mission is to champion a love of maths and science through enabling access to world-class integrated learning experiences for people everywhere, through the use of science and technology.
+          </p>
+      </div>
+<!--      <div class="spacing"></div>
+       <div class='medium-3 large-3 medium-centered larged-centered columns'>
+        <a class='button' href='technology-approach.html'>How are we achieving this?</a>
+      </div>
+      <div class="two spacing"></div> -->
+    </div>
+  </div>
+
+
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our foundations" %}
+      <div class='spacing'></div>
+      <p class='centered-text'>
+        In pursuing our mission, we have three foundations that form the core of all that we do.
+      </p>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='medium-6 columns middle'>
+      <img class="fadeinleft" alt="" src="images/home_page/nguni-phrase.png" />
+      <div class='three spacing'></div>
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+
+<div class='full parallax' style='background-image: url(images/sliders/wall.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Why believe in us?" color="#fff" %}
+      <div class='spacing'></div>
+      <p class='centered-text' style='color: #ccc;'>
+       Some of the numbers that speak for themselves.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns'>
+        <div class='mod modMilestone'>
+          <i class='fa fa-{{milestone.icon}}'></i>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+          <span>{{milestone.title}}</span>
+          <div class='four spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #018cb6; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What do others say?" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text' data-slick='{"autoplaySpeed": 6000}'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
