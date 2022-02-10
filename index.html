@@ -75,21 +75,9 @@ milestones:
     to: 10000000
     title: openly-licensed textbooks on desks in South Africa
 
-testimonials:
-  - quote: The whole team is so open for suggestions and input from teachers...With a casual, conversational way they share so much knowledge and it is evident that they know what they are talking about.
-    author: Rozelda Pienaar, Deputy Principal, Prestige College
-  - quote: We find that Intelligent Practice is an effective tool that not only helps the students, but supports the teacher. It’s a fun new way of laying strong foundations in Mathematics and Science.
-    author: Mathematics and Science Department, Maragon Olympus
-  - quote: We are thankful that we came across the wonderful programme and amazing group of people that have a passion for what they do and have the teachers’ and learners’ best interest at heart.
-    author: Rozelda Pienaar, Deputy Principal, Prestige College
-  - quote: Maths is very important to me because it can open a lot of opportunities for me. Many people see maths as something that is very difficult, but this system shows us that maths is actually pretty easy.
-    author: Pontsho Mathuma, Learner, Olico Youth
-  - quote: I improved exceedingly well, not only with Everything Maths but also at school. I also give myself time to practise Mathematics as I know that the more I practise the more I improve and the more opportunities I get to fulfil my dreams.
-    author: Sinenhlanhla Shezi, Learner, Barnato Park High School
-
 ---
 
-<!--
+
 <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
     <a class='sequence-prev' href='javascript:void(0);'>
@@ -147,7 +135,7 @@ testimonials:
     </ul>
   </div>
 </div>
--->
+
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
@@ -241,39 +229,4 @@ testimonials:
   </div>
   <div class='two spacing'></div>
 </div>
-
-<div class='full parallax' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #018cb6; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What do others say?" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text' data-slick='{"autoplaySpeed": 6000}'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+{% include our-partners.html %}

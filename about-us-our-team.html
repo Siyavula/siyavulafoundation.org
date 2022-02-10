@@ -1,0 +1,196 @@
+---
+layout: default
+title: Our People
+section_id: about us
+
+testimonials:
+  - quote: I have an opportunity to make an impact on thousands of students scattered in several countries. It’s a responsibility that I take seriously.
+    author: Saymore, Educational Technologist
+  - quote: I enjoy tackling large and seemingly unsolvable problems and learning a lot in the process of solving the problem.
+    author: Heather, Technical Editor
+  - quote: Chemistry opens up a whole other way of seeing things, a different way of understanding the world around us. That fascinates me, and I'd like to pass on this interest in understanding the world we live in.
+    author: Kate, Educational Technologist
+  - quote: Teaching others so that they can harness the power that physics knowledge grants as well as appreciate the intrinsic beauty of the subject is one of my greatest passions.
+    author: Adam, Educational Technologist
+  - quote: As someone who is not originally from South Africa, I am passionate about making a positive impact in this country, which has been so good to me.
+    author: Gina, Project Manager
+  - quote: I care deeply about helping people reach their full potential and think that education is a tool for true empowerment. I love astronomy.
+    author: Kosma, Educational Technologist
+  - quote: I really love that energy that comes from a group of us collectively finding a better way to do things more effectively. I also love solving problems.
+    author: Richard, Software Development Manager
+---
+
+<div class='non-parallax' style='background-image: url(/images/sliders/mock-ups.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="About us" color="#fff" tagline="The make-up of our team" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class="four spacing"></div>
+
+<div class="row">
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Scientific' desc='We investigate, research, design, experiment and learn. We are excited about finding solutions.' icon_class='fa fa-flask' delay='0' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Pioneering' desc='We innovate and pursue new ideas. We are ambitious and constantly grow our thinking and learning.' icon_class='fa fa-rocket' delay='200' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Honest' desc='We strive to be open, transparent and approachable. We believe in the collective power of collaboration.' icon_class='fa fa-comments' delay='400' shape_class='icon-text-circle' %}
+  </div>
+  <div class="medium-3 large-3 columns">
+    {% include icon-text.html title='Passionate' desc='We each have a deep conviction for what we do and the change we want to see in the world.' icon_class='fa fa-fire' delay='600' shape_class='icon-text-circle' %}
+  </div>
+</div>
+
+
+
+<div class='full'>
+  <div class='row'>
+  <div class='large-12 columns'>
+      {% include section-header.html title="Our people" %}
+      <div class='spacing'></div>
+    </div>
+  {% for member in site.data.members_directors %}
+      <div class='test medium-3 large-3 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}' target="_blank">
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class='centered-text'>{{member.desc}}</p>
+        </div>
+      </div>
+    {% endfor %}
+   </div>
+
+  <div class='row'>
+    <ul class='small-block-grid-2 medium-block-grid-4 large-block-grid-4'>
+    {% for member in site.data.members %}
+    <li>
+      <div class='columns end'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}' target="_blank">
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class='centered-text'>{{member.desc}}</p>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+  <div class='large-12 columns'>
+      {% include section-header.html title="Our board" %}
+      <div class='spacing'></div>
+    </div>
+
+    {% for member in site.data.members_board %}
+      <div class='medium-4 large-4 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <img alt="" src="{{ member.logo }}" />
+              </div>
+            </div>
+          </div>
+          <p class='centered-text italic'>{{member.company}}</p>
+          <p class='centered-text'>{{member.desc}}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class='full no-padding' style='background: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-8 large-8 columns'>
+        <p>Download our company brochure for a more detailed look at who we are and the focus of what we do.</p>
+        </div>
+      <div class='medium-4 large-4 columns'>
+
+       <a href="/downloads/Siyavula_Education-Company_brochure.pdf"><img src="/images/brochure.png"/></a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+<div class='full parallax' style='background-image: url(/images/sliders/dishing-up.jpg); color: #fff'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #018cb6; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What are we passionate about?" color="#fff" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

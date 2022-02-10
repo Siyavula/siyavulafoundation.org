@@ -1,6 +1,44 @@
-- name: Home
-  path: index.html
-  section_id: home
+- name: About us
+  section_id: aboutus
+  children:
+    - name: Our story
+      path: about-us-our-story.html
+    - name: Our values
+      path: about-us-our-values.html
+    - name: Our team
+      path: about-us-our-team.html      
+- name: What we do
+  path: technology-approach.html
+  section_id: whatwedo
+  children:
+    - name: Our approach
+      path: technology-approach.html
+    - name: What we've built
+      path: technology-components.html      
+- name: Our projects
+  path: 
+  section_id: ourprojects
+  children:
+    - name: Current projects
+      path: current-projects.html
+    - name: Past projects
+      path: past-projects.html
+- name: Social impact
+  section_id: socialimpact
+  children:
+    - name: Textbooks
+      path: social-impact-textbooks.html
+    - name: Adaptive Practice
+      path: social-impact-adaptive-practice.html
+    - name: Africa
+      path: social-impact-africa.html      
+- name: Support Us
+  path: support-us.html
+  section_id: supportus
 - name: Contact
   path: contact.html
   section_id: contact
+- name: News
+  path: news.html
+  section_id: news
+

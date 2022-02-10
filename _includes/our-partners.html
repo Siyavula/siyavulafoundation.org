@@ -1,0 +1,23 @@
+<div class='full parallax' >
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Our supporters" %}
+      <div class='spacing'></div>
+      <p>
+      </p>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modClients' data-slides_to_show='4'>
+        <div class='clients'>
+          {% for partner in site.data.clients %}
+            <div><img title="{{partner.title}}" alt="{{partner.title}}" src="{{partner.image}}" /></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
