@@ -1,8 +1,8 @@
 # Site settings
-title: Siyavula
-email: mark@markhorner.net
+title: Siyavula Foundation
+email: info@siyavulafoundation.org
 description: > # this means to ignore newlines until "baseurl:"
-  Siyavula is an educational technology company with a mission to create and enable engaging, integrated, high-quality learning experiences in Mathematics and the Sciences.
+  The Siyavula Foundation is an educational technology company with a mission to create and enable engaging, integrated, high-quality learning experiences in Mathematics and the Sciences.
 production_url: http://Siyavula.github.io
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site

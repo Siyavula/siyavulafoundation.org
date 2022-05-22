@@ -1,39 +1,13 @@
 ---
 layout: default
-title: Work
-section_id: work
-
-services:
-  - desc: We believe, quite simply, that everyone should have <b>access</b> to the basic resources that they need to achieve their education.
-  - desc: In pursuit of making education accessible, Siyavula has produced book titles spanning Mathematics and Science subjects from Grades 4-12. These are high-quality, curriculum-aligned <b>Open Educational Resources</b>.
-  - desc: When producing an educational resource, we believe in the <b>collective power and diverse insight</b> obtained from a large group of volunteers and contributors, from different backgrounds and contexts, from South Africa and around the world.
-
-services_left:
-  - icon: unlock
-    title: Free access
-    desc:
-  - icon: mobile
-    title: Multiple formats for accessibility
-    desc:
-  - icon: copy
-    title: Contextualisation of content and sharing
-    desc:
-services_right:
-  - icon: money
-    title: Cost savings
-    desc:
-  - icon: comments-o
-    title: Open collaboration and transparency
-    desc:
-  - icon: star
-    title: Longevity of content
-    desc:
+title: The problem in South Africa
+section_id: problem
 ---
 
 <div class='parallax-pin-top' style='background-image: url(images/sliders/books.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our work" tagline="Open Textbooks" color="#fff" class="big" %}
+      {% include section-header.html title="The problem" tagline="The problem to solve in South Africa" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -42,242 +16,77 @@ services_right:
 <div class="full" style="background: #f5f5f5">
   <div class="row">
     <div class="large-12 columns">
-      {% include section-header.html title="Making accessible educational resources" %}
+      {% include section-header.html title="Improving performance in Mathematics & Physical Sciences" %}
       <div class="spacing"></div>
    </div>
    </div>
     <div class='row'>
-      <div class='medium-5 columns'>
-        <img class="fadeinleft" alt="" src="images/work/oer_logo_blue.png" />
-        <div class='two spacing'></div>
+      <div class='medium-6 columns'>
+        <table>
+          <tr>
+            <td colspan="2">Grade 12 learner (full time) in 2021</td>
+            <td>733 540</td>
+          </tr>
+          <tr>
+            <td colspan="2">Grade 12 learner (part-time) in 2021</td>
+            <td>163 950</td>
+          </tr>
+        <tr>
+          <td colspan="2">Total learners writing Matric in 2021</td>
+          <td>897 490</td>
+        </tr>
+        <tr>
+          <td>Wrote Mathematics</td>
+          <td>Passed Mathematics</td>
+          <td>Passed with +60%</td>
+        </tr>
+        <tr>
+          <td>259 143</td>
+          <td>149 177</td>
+          <td>34 451</td>
+        </tr>
+        <tr>
+          <td>Wrote Physical Sciences</td>
+          <td>Passed Physical Sciences</td>
+          <td>Passed with +60%</td>
+        </tr>
+        <tr>
+          <td>196 968</td>
+          <td>135 915</td>
+          <td>30 398</td>
+        </tr>
+      </table>
+        
+                <div class='two spacing'></div>
       </div>
-      <div class='medium-7 columns'>
-        {% for service in page.services %}
-          <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+      <div class='medium-6 columns'>
+          <div class='fadein mod modIconText''>
             <div class='icon-text-simple-slim'>
-              <p>{{service.desc}}</p>
+              <p>South Africa is in the unenviable position of being at or near the bottom of international assessments that monitor trends in Mathematics and Physical Sciences. In 2021, although 897 000 learners sat the National Senior Certificate (NSC) exams, only 259 000 wrote Mathematics and 197 000 wrote Physical Sciences. And only 13% of learners writing Mathematics (and 15% writing Physical Sciences) passed at the minimum level to be accepted into a STEM-related field at a tertiary institution. To open the doors of opportunity for South Africa’s youth to further education, the digital economy and the new world of work, it is critical that learners take Mathematics and Physical Sciences, and that every effort is made to improve performance in these subjects.   
+              </p>
             </div>
           </div>
           <div class="spacing"></div>
-        {% endfor %}
       </div>
   </div>
-
-  <div class='row'>
-  <div class="spacing"></div>
-     <div class="large-12 columns">
-       {% include section-header.html title="What has this enabled?" %}
-       <div class='spacing'></div>
-     </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services_left %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      {% endfor %}
-    </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services_right %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-
   <div class='spacing' id="BOOKS"></div>
 </div>
 
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
-        {% include section-header.html title="Open catalogue" %}
+        {% include section-header.html title="Connection to the world of work" %}
         <div class='spacing'></div>
-        <p>Download our textbooks in different formats. The various folders contain the relevant learner book(s) and teacher's guide(s), in English and Afrikaans.
-        Refer to the different licences for each download and below for explanations of the licensing.
-        Find out more <a href="work-partnered.html#OPEN">here</a> about the sponsorships and partnerships with others that made the production of each of the open textbooks possible.
-        </p>
-    </div>
-
-    <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-3'>
-      {% for member in site.data.members_4-9 %}
-      <li>
-        <div class='columns end'>
-          <div class='mod modOpenMember'>
-            <div class='member'>
-              <img class="avatar" alt="" src="{{ member.avatar }}" />
-              <div class='overlay'>
-                <div class='intro'>
-                  <h3>{{member.name}}</h3>
-                  <p>{{member.position}}</p>
-                  <ul class='socials'>
-                    {% for social in member.socials %}
-                      <li>
-                        <a href='{{social.link}}' target="_blank">
-                          <i class='fa fa-{{social.icon}}'></i>
-                        </a>
-                      </li>
-                      <li><p>{{social.desc}}<span class='license'> {{social.license}}</span></p></li>
-                      <br/>
-                    {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class='two spacing'></div>
+        <div class='row'>
+          <div class='medium-8 columns'>
+            <p>Doing well in Mathematics and Physical Sciences at school provides learners with increased options for further study, particularly in STEM-related fields. However, career guidance is limited for many learners, finding post-school opportunities is not always easy, and the high cost of tertiary study provides another barrier to entry. This means that many learners don’t actually consider Mathematics and Physical Sciences as subjects that will unlock doors for them.
+            </p>
           </div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-    <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-3'>
-      {% for member in site.data.members_10-12s %}
-      <li>
-        <div class='columns end'>
-          <div class='mod modOpenMember'>
-            <div class='member'>
-              <img class="avatar" alt="" src="{{ member.avatar }}" />
-              <div class='overlay'>
-                <div class='intro'>
-                  <h3>{{member.name}}</h3>
-                  <p>{{member.position}}</p>
-                  <ul class='socials'>
-                    {% for social in member.socials %}
-                      <li>
-                        <a href='{{social.link}}' target="_blank">
-                          <i class='fa fa-{{social.icon}}'></i>
-                        </a>
-                      </li>
-                      <li><p>{{social.desc}}<span class='license'> {{social.license}}</span></p></li>
-                      <br/>
-                    {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class='two spacing'></div>
-          </div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-    <ul class='small-block-grid-2 medium-block-grid-3 large-block-grid-3'>
-      {% for member in site.data.members_10-12m %}
-      <li>
-        <div class='columns end'>
-          <div class='mod modOpenMember'>
-            <div class='member'>
-              <img class="avatar" alt="" src="{{ member.avatar }}" />
-              <div class='overlay'>
-                <div class='intro'>
-                  <h3>{{member.name}}</h3>
-                  <p>{{member.position}}</p>
-                  <ul class='socials'>
-                    {% for social in member.socials %}
-                      <li>
-                        <a href='{{social.link}}' target="_blank">
-                          <i class='fa fa-{{social.icon}}'></i>
-                        </a>
-                      </li>
-                      <li><p>{{social.desc}}<span class='license'> {{social.license}}</span></p></li>
-                      <br/>
-                    {% endfor %}
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class='two spacing'></div>
-          </div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-    <div class='large-12 columns'>
-        <h3>OUR BOOK LICENSING</h3>
-        <h4>CC-BY-ND</h4>
-        <p>You are allowed and encouraged to freely copy these versions. You can photocopy, print and distribute them as often as you like.
-         You can download them onto your mobile phone, iPad, PC or flash drive. You can burn them to CD, email them around or upload them to your website.
-         The only restriction is that you cannot adapt or change <i>these versions</i> of the textbooks, their content or covers in any way as they contain the relevant Siyavula brands, the sponsorship logos and are endorsed by the Department of Basic Education.
-         For more information, visit <a href="http://creativecommons.org/licenses/by-nd/3.0/" target="_blank"><i>Creative Commons Attribution-NoDerivs 3.0 Unported</i></a>.</p>
-         <h4>CC-BY</h4>
-        <p>These unbranded versions of the same content are available for you to share, adapt, transform, modify or build upon in any way, with the only requirement being to give appropriate credit to Siyavula.
-        For more information, visit <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank"><i>Creative Commons Attribution 3.0 Unported</i></a>.</p>
-         <div class='spacing' id='COLLABORATION'></div>
+          <div class='medium-4 columns'>
+            <img style=" display: block; margin-left: auto;  margin-right: auto;  width: 30%;" src="images/my-future-rocket.svg" />
+          </div>  
     </div>
   </div>
 
 </div>
-
-<div class='full' style="background: #f5f5f5">
-  <div class='row'>
-    <div class='large-12 columns'>
-        {% include section-header.html title="Open collaboration" %}
-    </div>
-  </div>
-  <div class="spacing"></div>
-  <div class='row'>
-   <div class='medium-12 large-12 columns'>
-     <h3>Open content to open processes</h3>
-     <p>At Siyavula, community is at the heart of our content development processes, which are open, transparent, iterative and collaborative.
-     This has been the case ever since the first versions of the Free High School Science Texts were written by volunteers.
-     Over the years, we have tried and tested different models for collaborative development, continually reflecting on the ideal process that draws on the strengths of the community and feeds into our work. </p>
-     <p>Each of our open textbooks has been developed collaboratively by a large group of contributors, including volunteers from South Africa and internationally, paid contributors and our in-house team. Each book project was managed by the Content Coordinator (a subject specialist responsible for the content, curriculum, workshop design, authoring and editing) and the Community Coordinator.
-     Our collaborative development process has varied and evolved but has always involved physical workshops (also known as hackathons or book sprints)
-     and online collaboration for review and translation. As in open source software development, we believe in the mantra "release early and release often".
-     <div class="spacing"></div>
-     <h3>The benefits of collaborative OER development are resounding</h3>
-      <ul>
-      <li>A diverse group of people from different contexts and backgrounds ensures our content is more <b>relevant</b> to the needs of South Africa than if it was only produced by a select few.</li>
-      <li>An inclusive, iterative, transparent process brings <b>multiple stakeholders</b> together, including government officials, curriculum experts, teachers, postgraduate students, parents and learners, allowing for <b>broader impact</b> in South Africa, and beyond.</li>
-      <li>The content is <b>extensively reviewed</b>, often resulting in online debate and discussion, which is open to anyone.</li>
-      <li>The large number of contributors has been noted as an <b>indicator of high quality</b> for educators.</li>
-      <li>Volunteer educators taking part in the processes learn about open education and we have seen they are then more likely to <b>adopt and advocate</b> for the use of OER in their schools and networks.</li>
-      <li>The exercise promotes <b>skills and professional development</b> amongst those involved.</li>
-      <li>The processes provide a space for people to <b>give back meaningfully</b> to education in South Africa, knowing that their contribution will have an impact.</li>
-      <li>We start to build a <b>community</b> around the open textbook, which facilitates adoption, continued revision and updates. This is a living resource.</li>
-      <li>We have seen how our processes have been instigators for other communities of <b>open practice</b> to seed and flourish.</li>
-      </ul>
-   </div>
-  </div>
-  <div class="row">
-     <div class="spacing"></div>
-      <div class='mod modBoxedSlider'>
-        <div class='slides'>
-          <div class='slide'>
-            <img alt="" src="images/work/collage1_black.jpg" />
-          </div>
-          <div class='slide'>
-            <img alt="" src="images/work/collage2_black.jpg" />
-          </div>
-          <div class='slide'>
-            <img alt="" src="images/work/collage3_black.jpg" />
-          </div>
-          <div class='slide'>
-            <img alt="" src="images/work/collage4_black.jpg" />
-          </div>
-          <div class='slide'>
-            <img alt="" src="images/work/collage5_black.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class='mod modCallToAction'>
-      <div class='row'>
-        <div class='medium-12 large-12'>
-          <p class='centered-text'>"Reuse, Remix, Revise, Redistribute"</p>
-        </div>
-      </div>
-    </div>
-    <div class='spacing'></div>
-  </div>
 

@@ -7,7 +7,13 @@
       path: about-us-our-values.html
     - name: Our team
       path: about-us-our-team.html      
-- name: What we do
+- name: The problem
+  path: technology-approach.html
+  section_id: problem
+  children:
+    - name: South Africa
+      path: problem-south-africa.html
+- name: Our solution
   path: technology-approach.html
   section_id: whatwedo
   children:
@@ -15,30 +21,23 @@
       path: technology-approach.html
     - name: What we've built
       path: technology-components.html      
-- name: Our projects
-  path: 
-  section_id: ourprojects
-  children:
-    - name: Current projects
-      path: current-projects.html
-    - name: Past projects
-      path: past-projects.html
-- name: Social impact
-  section_id: socialimpact
-  children:
-    - name: Textbooks
-      path: social-impact-textbooks.html
-    - name: Adaptive Practice
-      path: social-impact-adaptive-practice.html
-    - name: Africa
-      path: social-impact-africa.html      
-- name: Support Us
+#- name: Our impact
+#  section_id: socialimpact
+#  children:
+#    - name: Textbooks
+#      path: social-impact-textbooks.html
+#    - name: Adaptive Practice
+#      path: social-impact-adaptive-practice.html
+#    - name: Africa
+#      path: social-impact-africa.html      
+- name: How you can help
   path: support-us.html
   section_id: supportus
+  children:
+    - name: Sponsor learners
+      path: support-us.html
+#    -name: Sponsor school tools
+#    -path: support-schools.html
 - name: Contact
   path: contact.html
   section_id: contact
-- name: News
-  path: news.html
-  section_id: news
-
